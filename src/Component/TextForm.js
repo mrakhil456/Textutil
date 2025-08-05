@@ -52,11 +52,11 @@ return (
     
     <textarea className="form-control" value={text} onChange={handleOnchange} style={{backgroundColor:props.mode==='dark'?'#2f2b2cff':'rgba(5, 107, 147, 0)' , color:props.mode==='dark'?'white':'black'}}  id="myBox" rows="8"></textarea>
     </div>
-    <button className="btn btn-primary mx-2" onClick={handleUpperClick}>Convert to Uppercase</button>
-    <button className="btn btn-primary mx-2" onClick={handleLowerClick}>Convert to Lowercase</button>
-    <button className="btn btn-primary mx-2" onClick={handleClearClick}>Clear Text</button>
-     <button className="btn btn-primary mx-2" onClick={handleCopy}>Copy Text</button>
-      <button className="btn btn-primary mx-2" onClick={handleExtraSpace}>Remove Extra Spaces</button>
+    <button className="btn btn-primary mx-2 my-3" onClick={handleUpperClick}>Convert to Uppercase</button>
+    <button className="btn btn-primary mx-2 my-3" onClick={handleLowerClick}>Convert to Lowercase</button>
+    <button className="btn btn-primary mx-2 my-3" onClick={handleClearClick}>Clear Text</button>
+    <button className="btn btn-primary mx-2 my-3" onClick={handleCopy}>Copy Text</button>
+    <button className="btn btn-primary mx-2 my-3" onClick={handleExtraSpace}>Remove Extra Spaces</button>
 </div>
 <div className="container"  style={{color:props.mode==='dark'?'white':'#180208ff'}} >
     <h2 >Your text summary</h2>
@@ -68,5 +68,6 @@ return (
 </>
 )
 }
+
 
  
