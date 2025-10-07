@@ -47,7 +47,7 @@ return (
     <>
     
 <div className='container'  style={{backgroundColor:props.mode==='dark'?'#191a1bff':'rgba(5, 107, 147, 0)' , color:props.mode==='dark'?'white':'black'}}>
-     <h1 className='mb-3'>{props.heading}</h1>   
+     <h1 className='mb-3' style={{fontSize:'35px'}}>{props.heading}</h1>   
     <div className="mb-3" >
     
     <textarea className="form-control" value={text} onChange={handleOnchange} style={{backgroundColor:props.mode==='dark'?'#525454b8':' #ffffff94' , color:props.mode==='dark'?'white':'black' , border:'black'}}  id="myBox" rows="8"></textarea>
@@ -71,4 +71,5 @@ return (
 
 
  
+
 
