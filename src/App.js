@@ -26,20 +26,20 @@ function App() {
         case 'light':
             setMode('dark');
             
-            document.body.style.backgroundColor = '#2f2b2cff';
+            document.body.style.backgroundColor = '#191a1bff';
            // document.title="Textutil-Dark Mode";
             showAlert("Dark Mode has been Enabled","success ");
             
             break;
         case 'dark':
              setMode('light');
-            document.body.style.backgroundColor = ' rgba(10, 83, 116, 0.85)';
+            document.body.style.backgroundColor = '#02020259';
            // document.title="Textutil-Light Mode";
             showAlert("Light Mode has been Enabled","success ")
             break;
 
        
-        default:document.body.style.backgroundColor = '#056b9359';
+        default:document.body.style.backgroundColor = '#02020259';
         
        }
        /* if (mode==='light') {
